@@ -1,0 +1,17 @@
+# Archivos y directorios generados
+__pycache__/
+*.pyc
+*.pyo
+*.env
+
+# Directorios de dependencias y entorno virtual
+Pipfile.lock
+venv/
+virtualenv/
+
+# Archivos de registro y salida
+logs/
+*.log
+
+# Archivos específicos de Flask
+instance/
