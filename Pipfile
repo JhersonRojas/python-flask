@@ -2,9 +2,11 @@
 url = "https://pypi.org/simple"
 verify_ssl = true
 name = "python-flask"
+# Version 0.0.2
 
 [packages]
-flask = "3.0"
+flask = "3.0.0"
+python-dotenv = "1.0.0"
 
 [dev-packages]
 
