@@ -2,7 +2,9 @@
 from typing import TypedDict
 
 
-class Products_Types(TypedDict):
+# Types for data users
+class Users_Types(TypedDict):
     id: int
     name: str
-    price: int
+    email: int
+    gender: str
