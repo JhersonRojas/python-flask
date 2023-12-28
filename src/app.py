@@ -2,7 +2,7 @@
 from flask import Flask
 
 # Constants
-from constants.private import PORT, DEBUG
+from utils.constants.private import PORT, DEBUG
 
 # Routes
 from config import config_app
